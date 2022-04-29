@@ -3,9 +3,9 @@
 First, bootstrap your new project with this example using [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app):
 
 ```bash
-npx create-next-app -e https://github.com/cosmoscontracts/starter-kit my-cosmwasm-dapp
+npx create-next-app -e https://github.com/Source-Protocol-Cosmos/starter-kit my-cosmwasm-dapp
 # or
-yarn create next-app -e https://github.com/cosmoscontracts/starter-kit my-cosmwasm-dapp
+yarn create next-app -e https://github.com/Source-Protocol-Cosmos/starter-kit my-cosmwasm-dapp
 ```
 
 Next, setup your `.env` file by copying the example:
@@ -31,9 +31,9 @@ In order to interact with a local chain, the easiest way is with docker:
 docker run -it \
   -p 26656:26656 \
   -p 26657:26657 \
-  -e STAKE_TOKEN=ujunox \
-  ghcr.io/cosmoscontracts/juno:v2.1.0 \
-  ./setup_and_run.sh juno16g2rahf5846rxzp3fwlswy08fz8ccuwk03k57y
+  -e STAKE_TOKEN=usource \
+  ghcr.io/Source-Protocol-Cosmos/source \
+  ./setup_and_run.sh source16g2rahf5846rxzp3fwlswy08fz8ccuwk03k57y
 ```
 
 More information can be found [in the Juno docs here](https://docs.junonetwork.io/smart-contracts-and-junod-development/junod-local-dev-setup).
