@@ -5,7 +5,7 @@ let config = {
 };
 
 // to connect to local chain in dev
-if (process.env.NEXT_PUBLIC_CHAIN_ID === "testing") {
+if (process.env.NEXT_PUBLIC_CHAIN_ID === "sourcechain-testnet") {
   config.rewrites = async () => {
     return [
       {
