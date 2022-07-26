@@ -36,7 +36,7 @@ docker run -it \
   ./setup_and_run.sh source1z2pwal23rn7acdluxmj9345g2ndr9rsw4ukhyr
 ```
 
-More information can be found [in the Juno docs here](https://docs.junonetwork.io/smart-contracts-and-junod-development/junod-local-dev-setup).
+More information can be found [in the Source docs here](https://docs.sourceprotocol.io/smart-contracts-and-sourced-development/sourced-local-dev-setup).
 
 ## Requirements
 
