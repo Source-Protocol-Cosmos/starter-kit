@@ -33,7 +33,7 @@ docker run -it \
   -p 26657:26657 \
   -e STAKE_TOKEN=usource \
   ghcr.io/Source-Protocol-Cosmos/source \
-  ./setup_and_run.sh source16g2rahf5846rxzp3fwlswy08fz8ccuwk03k57y
+  ./setup_and_run.sh source1z2pwal23rn7acdluxmj9345g2ndr9rsw4ukhyr
 ```
 
 More information can be found [in the Juno docs here](https://docs.junonetwork.io/smart-contracts-and-junod-development/junod-local-dev-setup).
